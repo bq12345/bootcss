@@ -899,7 +899,7 @@ input[type="number"] {
 
 .form-control {
   display: block;
-  width: 100%;
+  width: 90%;
   padding: @padding-base-vertical @padding-base-horizontal;
   font-size: @font-size;
   line-height: @line-height;
@@ -948,7 +948,6 @@ input[type="number"] {
 
 
 // Checkboxes and radios
-//
 // Indent the labels to position radios/checkboxes as hanging controls.
 
 .radio,
@@ -1063,19 +1062,22 @@ nav {
   padding-left: 0; // Override default ul/ol
   list-style: none;
   &:extend(.clearfix all);
-
+  
+    
   > li {
     position: relative;
     display: block;
     float: left;
-
+    top:0;
+    height: 100%;
+    margin-top: 0px;
     > a {
       position: relative;
       display: block;
       padding: @nav-link-padding;
       &:hover{
         text-decoration: none;
-        background-color: @nav-link-hover-bg;
+        opacity: 0.8;
       }
     }
   }

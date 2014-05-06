@@ -679,7 +679,7 @@ input[type="number"]::-webkit-inner-spin-button {
 }
 .form-control {
   display: block;
-  width: 100%;
+  width: 90%;
   padding: 6px 12px;
   font-size: 14px;
   line-height: 1.42857143;
@@ -972,6 +972,9 @@ nav {
   position: relative;
   display: block;
   float: left;
+  top: 0;
+  height: 100%;
+  margin-top: 0px;
 }
 .nav > li > a {
   position: relative;
@@ -980,5 +983,5 @@ nav {
 }
 .nav > li > a:hover {
   text-decoration: none;
-  background-color: #eeeeee;
+  opacity: 0.8;
 }
